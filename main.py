@@ -27,7 +27,7 @@ def save_quotes(quotes):
 def main():
     print('Философские цитаты')
 
-    author = input('Введите имя автора или оставьте поле пустым: ').strip()
+    author = input('Введите имя автора или оставьте поле пустым(не работает на данный момент): ').strip()
     quotes = get_quotes(author=author)
 
     if not quotes:
